@@ -1,19 +1,23 @@
 " # install vundle first: 
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
+"
+"
+" # then, open Vim, and run
+" :PluginInstall
+"
+"
+" < - - - -    Below Comments only for Nord Color Scheme ...
+" # If using Nord Color Scheme, uncomment lines below
 " # Setup Nord Color Scheme across apps (vim, sublime, tmux)
-" 
 " 
 " # Make Directories Oneliner:
 " mkdir -p  ~/.vim/colors && mkdir -p  ~/.vim/autoload/airline/themes
 " 
-" 
 " # Curl nord color files
 " curl https://raw.githubusercontent.com/arcticicestudio/nord-vim/master/colors/nord.vim >> ~/.vim/" colors/color.vim && curl https://raw.githubusercontent.com/arcticicestudio/nord-vim/master/" autoload/airline/themes/nord.vim >> ~/.vim/autoload/airline/themes/color.vim
 " 
-" 
-" # then, open Vim, and run
-" :PluginInstall
+" - - - - >
+
 
 
 
@@ -43,7 +47,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 
 Plugin 'vim-airline/vim-airline'
-Plugin 'arcticicestudio/nord-vim'  " Nord Color Scheme
+"Plugin 'arcticicestudio/nord-vim'  " Nord Color Scheme
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -66,4 +70,4 @@ set backspace=indent,eol,start     "fix the backspace not working
 " --------------------------------
 set t_Co=256
 syntax on
-colorscheme nord
+"colorscheme nord
