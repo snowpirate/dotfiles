@@ -6,17 +6,7 @@
 " :PluginInstall
 "
 "
-" < - - - -    Below Comments only for Nord Color Scheme ...
-" # If using Nord Color Scheme, uncomment lines below
-" # Setup Nord Color Scheme across apps (vim, sublime, tmux)
-" 
-" # Make Directories Oneliner:
-" mkdir -p  ~/.vim/colors && mkdir -p  ~/.vim/autoload/airline/themes
-" 
-" # Curl nord color files
-" curl https://raw.githubusercontent.com/arcticicestudio/nord-vim/master/colors/nord.vim >> ~/.vim/" colors/color.vim && curl https://raw.githubusercontent.com/arcticicestudio/nord-vim/master/" autoload/airline/themes/nord.vim >> ~/.vim/autoload/airline/themes/color.vim
-" 
-" - - - - >
+
 
 
 
@@ -72,3 +62,17 @@ set t_Co=256
 syntax on
 "colorscheme nord
 colorsheme elflord
+
+
+
+" < - - - -    Below Comments only to use Nord Color Scheme ...
+" # If using Nord Color Scheme, uncomment lines below
+" # Setup Nord Color Scheme across apps (vim, sublime, tmux)
+" 
+" # Make Directories Oneliner:
+" mkdir -p  ~/.vim/colors && mkdir -p  ~/.vim/autoload/airline/themes
+" 
+" # Curl nord color files
+" curl https://raw.githubusercontent.com/arcticicestudio/nord-vim/master/colors/nord.vim >> ~/.vim/" colors/color.vim && curl https://raw.githubusercontent.com/arcticicestudio/nord-vim/master/" autoload/airline/themes/nord.vim >> ~/.vim/autoload/airline/themes/color.vim
+" 
+" - - - - >
