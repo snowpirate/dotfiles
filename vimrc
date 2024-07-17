@@ -61,7 +61,7 @@ set backspace=indent,eol,start     "fix the backspace not working
 set t_Co=256
 syntax on
 "colorscheme nord
-colorsheme elflord
+colorscheme elflord
 
 
 
