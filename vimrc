@@ -1,3 +1,7 @@
+" ================================
+" Welcome to Kris' vimrc file
+" ================================
+
 " # install vundle first: 
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 "
@@ -5,19 +9,7 @@
 " # then, open Vim, and run
 " :PluginInstall
 "
-"
-
-
-
-
-
-
-
-
-" ================================
-" Welcome to Kris' vimrc file
-" ================================
-
+" Then uncomment lines using Vundle
 
 " --------------------------------
 " Plugins
@@ -26,22 +18,22 @@ set nocompatible              " be vi iMproved, not vi.  required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" set rtp+=~/.vim/bundle/Vundle.vim   " uncomment for Vundle
+" call vundle#begin()                 " uncomment for Vundle
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+" Plugin 'VundleVim/Vundle.vim' " uncomment to use Vundle
 
 
 " Plugins
-" plugin on GitHub repo
+" plugin are on GitHub repo
 
-Plugin 'vim-airline/vim-airline'
+"Plugin 'vim-airline/vim-airline'   " Nice Status Bar - uncomment for Vundle
 "Plugin 'arcticicestudio/nord-vim'  " Nord Color Scheme
 
 " All of your Plugins must be added before the following line
-call vundle#end()
-filetype plugin indent on
+" call vundle#end() " uncomment for Vundle
+" filetype plugin indent on  " uncomment for Vundle
 
 
 " --------------------------------
@@ -66,6 +58,7 @@ colorscheme elflord
 
 
 " < - - - -    Below Comments only to use Nord Color Scheme ...
+"              https://www.nordtheme.com/
 " # If using Nord Color Scheme, uncomment lines below
 " # Setup Nord Color Scheme across apps (vim, sublime, tmux)
 " 
