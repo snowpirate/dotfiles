@@ -28,12 +28,14 @@ filetype off                  " required
 " Plugins
 " plugin are on GitHub repo
 
-"Plugin 'vim-airline/vim-airline'   " Nice Status Bar - uncomment for Vundle
-"Plugin 'arcticicestudio/nord-vim'  " Nord Color Scheme
+"Plugin 'vim-airline/vim-airline'   "     Nice Status Bar - uncomment for Vundle
+"Plugin 'arcticicestudio/nord-vim'  "     Nord Color Scheme
+"Plugin 'patstockwell/vim-monokai-tasty'  Monokai Color Scheme
 
 " All of your Plugins must be added before the following line
 " call vundle#end() " uncomment for Vundle
 " filetype plugin indent on  " uncomment for Vundle
+
 
 
 " --------------------------------
