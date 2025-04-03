@@ -9,7 +9,7 @@
 " # then (assuming this .vimrc file is in ~ open Vim, and run
 " :PluginInstall
 "
-" Then uncomment lines using Vundle
+" Then uncomment lines using Vundle: - <<<
 
 " --------------------------------
 " Plugins
@@ -18,24 +18,24 @@ set nocompatible              " be vi iMproved, not vi.  required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
- set rtp+=~/.vim/bundle/Vundle.vim   " uncomment for Vundle
- call vundle#begin()                 " uncomment for Vundle
+"set rtp+=~/.vim/bundle/Vundle.vim   " uncomment for Vundle - <<<
+"call vundle#begin()                 " uncomment for Vundle - <<<
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim' " uncomment to use Vundle
+"Plugin 'VundleVim/Vundle.vim' " uncomment to use Vundle - <<<
 
 " Plugins
-" plugin are on GitHub repo
+" plugin are on GitHub repos
 
-Plugin 'vim-airline/vim-airline'   " Nice Status Bar - uncomment for Vundle
+"Plugin 'vim-airline/vim-airline'   " Nice Status Bar - uncomment for Vundle - <<<
 
 " - - - - Install Color Schemes: Don't forget to also enable them later.. (after the Plug declration)...
-"Plugin 'arcticicestudio/nord-vim'  " Nord Color Scheme
-Plugin 'patstockwell/vim-monokai-tasty' " Monokai Color Scheme
+"Plugin 'arcticicestudio/nord-vim'  " Nord Color Scheme - <<<
+"Plugin 'patstockwell/vim-monokai-tasty' " Monokai Color Scheme - <<<
 
 " All of your Plugins must be added before the following line
-call vundle#end() " uncomment for Vundle
-filetype plugin indent on  " uncomment for Vundle
+"call vundle#end() " uncomment for Vundle - <<<
+"filetype plugin indent on  " uncomment for Vundle - <<<
 
 
 " --------------------------------
@@ -55,8 +55,8 @@ set backspace=indent,eol,start     "fix the backspace not working
 set t_Co=256
 syntax on
 "colorscheme nord
-"colorscheme elflord
-colorscheme vim-monokai-tasty
+"colorscheme vim-monokai-tasty
+colorscheme elflord
 
 
 
