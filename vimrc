@@ -6,10 +6,11 @@
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 "
 "
-" # then (assuming this .vimrc file is in ~ open Vim, and run
-" :PluginInstall
+" To use plugins, uncomment lines using Vundle: - <<<
+" and then restart vim.
 "
-" Then uncomment lines using Vundle: - <<<
+" then (assuming this .vimrc file is in ~ open Vim, and run
+" :PluginInstall
 
 " --------------------------------
 " Plugins
