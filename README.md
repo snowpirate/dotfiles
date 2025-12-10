@@ -48,7 +48,10 @@ monitor.alsa.rules = [
 ]
 ```
 
-Afterwards, restart everything via systemctl --user restart wireplumber pipewire pipewire-pulse
+Afterwards, restart everything via:
+```sh
+systemctl --user restart wireplumber pipewire pipewire-pulse
+```
 
 When running inside a VM, also disable the Firefox speech dispatch as
 explained here.
