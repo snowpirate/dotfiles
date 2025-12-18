@@ -2,6 +2,12 @@
 
 Obligatory dotfiles for casual usage.
 
+# One-liner install:
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/snowpirate/dotfiles/refs/heads/main/install.sh)"
+```
+
+
 # Audio/Video fix
 (sourced from here:)
 https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Troubleshooting#stuttering-audio-in-virtual-machine
